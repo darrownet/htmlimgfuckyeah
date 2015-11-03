@@ -1,0 +1,213 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"inline"
+			],
+			[
+				"bel",
+				"belwe-light"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/matt/Desktop/beckett/sass/_00-variables.scss",
+		"/Users/matt/Desktop/beckett/css/YTPlayer.css",
+		"/Users/matt/Desktop/beckett/style.css",
+		"/Users/matt/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/matt/Desktop/beckett/page-philanthropy.php",
+		"/Users/matt/Desktop/beckett/page-jokes.php",
+		"/Users/matt/Desktop/beckett/page-library.php",
+		"/Users/matt/Desktop/beckett/page-archives.php",
+		"/Users/matt/Desktop/beckett/inc/template-tags.php",
+		"/Users/matt/Desktop/beckett/page-special-events.php",
+		"/Users/matt/Desktop/beckett/index.php",
+		"/Users/matt/Desktop/beckett/sidebar.php",
+		"/Users/matt/Desktop/style.css",
+		"/Users/matt/Desktop/page-jokes.php",
+		"/Users/matt/Desktop/index.php",
+		"/Users/matt/Desktop/content.php",
+		"/Users/matt/Desktop/content-posts-home.php",
+		"/Users/matt/Desktop/page-full-width.php",
+		"/Users/matt/Desktop/class-portfolio-cpt.php",
+		"/Users/matt/Desktop/page-facilities.php",
+		"/Users/matt/Desktop/page-portfolio.php",
+		"/Users/matt/Desktop/content-project-single.php",
+		"/Users/matt/Desktop/content-projects-home.php",
+		"/Users/matt/Repos/friarclub_old/site_files/wp-content/themes/ut-gogreen/functions.php",
+		"/Users/matt/Desktop/db.sql",
+		"/Users/matt/Repos/friarclub_old/site_files/wp-config.php",
+		"/Users/matt/Desktop/content-testimonials-home.php",
+		"/Users/matt/Desktop/page-home.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/matt/Desktop/beckett"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"rgba(0,0,0,.5)",
+			"rgba(0,0,0,.9)",
+			"hover",
+			"#e2c876",
+			"hover",
+			"#E2C876",
+			"members-landing-box",
+			".facilities",
+			"#projects",
+			"h2",
+			"happenings",
+			"joke",
+			"get_sidebar",
+			".happenings",
+			"10.0 - Content",
+			"blog",
+			"happenings",
+			"#secondary",
+			".widget",
+			".widget_instagram_recent_media",
+			"widgets",
+			"#secondary",
+			".sidebar",
+			".widget-area.sidebar",
+			"#secondary",
+			"joke",
+			"beckett_paging_nav",
+			"beckett_posted_on",
+			"happenings",
+			"category-blog",
+			"max_num_pages",
+			"beckett_paging_nav",
+			"content",
+			"project",
+			"projectcc",
+			"project",
+			"joke-of-the"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$site-menu-light",
+			"$site-menu-dark",
+			"$site-primary-hover"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 360.0,
+	"status_bar_visible": true
+}
