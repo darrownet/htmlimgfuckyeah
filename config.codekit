@@ -42,15 +42,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/downloads\/img.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/downloads\/img.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/img\/sample.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -164,7 +155,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Matt Schiffman",
+"lastSavedByUser": "Matthew Schiffman",
 "manualImportLinks": {
 	},
 "projectAttributes": {
