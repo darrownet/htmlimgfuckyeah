@@ -19,7 +19,8 @@ router.post('/alright', upload.single("file"), function(req, res, next) {
           imgMarkup = '',
           wrapEnd = '',
           htmlImg = '',
-          i = 0;
+          i = 0,
+          fileName;
       image.scan(0, 0, image.bitmap.width, image.bitmap.height, function (x, y, idx) {
           var red = this.bitmap.data[idx];
           var green = this.bitmap.data[idx+1];
@@ -32,9 +33,19 @@ router.post('/alright', upload.single("file"), function(req, res, next) {
       imgMarkup = arrayFuckYeah.join("").toString();
       wrapEnd = '</div></body></html>';
       htmlImg = wrapStart+imgMarkup+wrapEnd;
-      fs.writeFile('./public/downloads/img.html', htmlImg);
-      res.send(true);
+
+      fileName = 'img_'+ Date.now() +'.html'
+      fs.writeFile('./public/downloads/' + fileName, htmlImg, function(err){
+          res.send(fileName);
+      });
   });
+});
+
+router.get('/yeah/:path', function(req, res){
+    console.log(req.params.path);
+    res.download('./public/downloads/' + req.params.path, 'imageYEAH.html', function(err){
+        console.log(err);
+    });
 });
 
 module.exports = router;
