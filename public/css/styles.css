@@ -121,10 +121,12 @@ body {
   padding: 0 50px 10px 50px; }
 
 form.dropzone {
-  min-height: 300px; }
+  min-height: 300px;
+  border: 1px solid #ffffff;
+  background: transparent; }
   form.dropzone .dz-message {
     margin-top: 100px; }
     form.dropzone .dz-message span {
       font-family: 'roboto-regular';
       font-size: 1.5em;
-      color: #3399ff; }
+      color: #ffffff; }

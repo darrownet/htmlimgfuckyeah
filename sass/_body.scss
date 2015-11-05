@@ -24,12 +24,14 @@
 
 form.dropzone{
   min-height: 300px;
+  border: 1px solid #ffffff;
+  background: transparent;
   .dz-message{
     margin-top: 100px;
     span{
       font-family: 'roboto-regular';
       font-size: 1.5em;
-      color: $main-color;
+      color: #ffffff;
     }
   }
 }
