@@ -1,4 +1,8 @@
+.DS_Store
+htmlimgfuckyeah.sublime-project
+htmlimgfuckyeah.sublime-workspace
 config.codekit
+
 node_modules/*
 public/uploads/*
 public/downloads/*
