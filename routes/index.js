@@ -35,6 +35,7 @@ router.post('/alright', upload.single("file"), function(req, res, next) {
       htmlImg = wrapStart+imgMarkup+wrapEnd;
 
       fileName = 'img_'+ Date.now() +'.html'
+      fs.unlink(req.file.path);
       fs.writeFile('./public/downloads/' + fileName, htmlImg, function(err){
           res.send(fileName);
       });
@@ -42,7 +43,6 @@ router.post('/alright', upload.single("file"), function(req, res, next) {
 });
 
 router.get('/yeah/:path', function(req, res){
-    console.log(req.params.path);
     res.download('./public/downloads/' + req.params.path, 'imageYEAH.html', function(err){
         console.log(err);
     });
