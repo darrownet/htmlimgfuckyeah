@@ -18,18 +18,24 @@ router.get('/', function(req, res, next) {
 router.post('/alright', upload.array('file', 1), function(req, res, next) {
     for (var i = 0; i < req.files.length; i++) {
 
-        var mime = /image\/.*/,
+        var currentFile = req.files[i],
+            mime = currentFile.mimetype.match(/image\/.*/),
+            gif = currentFile.mimetype.match(/image\/gif/),
             sendObj = {},
-            currentFile = req.files[i],
             origList = currentFile.originalname.split('.');
 
-        if (currentFile.mimetype.match(mime) === null) {
+        if (mime === null || gif !== null) {
             fs.unlink(currentFile.path);
-            sendObj.fileName = 'pitythefool.html';
-            sendObj.originalName = 'pitythefool';
+            if(mime === null){
+                sendObj.fileName = 'pitythefool.html';
+                sendObj.originalName = 'pitythefool';
+            }else{
+                sendObj.fileName = 'giffool.html';
+                sendObj.originalName = 'giffool';
+            }
             res.send(sendObj);
+            
         } else {
-
             origList.pop();
             sendObj.originalName = origList.join('');
 
