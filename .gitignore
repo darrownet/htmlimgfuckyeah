@@ -3,7 +3,7 @@ htmlimgfuckyeah.sublime-project
 htmlimgfuckyeah.sublime-workspace
 config.codekit
 
-.sass-cache
+sass/.sass-cache/*
 .sass-cache/*
 
 node_modules/*
