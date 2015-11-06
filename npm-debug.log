@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'start',
+1 verbose cli   '/Users/konei1/Documents/Projects/htmlimgfuckyeah/' ]
+2 info using npm@3.3.5
+3 info using node@v0.12.6
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle htmlimgfuckyeah@0.0.0~prestart: htmlimgfuckyeah@0.0.0
+6 silly lifecycle htmlimgfuckyeah@0.0.0~prestart: no script for prestart, continuing
+7 info lifecycle htmlimgfuckyeah@0.0.0~start: htmlimgfuckyeah@0.0.0
+8 verbose lifecycle htmlimgfuckyeah@0.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle htmlimgfuckyeah@0.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/konei1/Documents/Projects/htmlimgfuckyeah/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+10 verbose lifecycle htmlimgfuckyeah@0.0.0~start: CWD: /Users/konei1/Documents/Projects/htmlimgfuckyeah
+11 silly lifecycle htmlimgfuckyeah@0.0.0~start: Args: [ '-c',
+11 silly lifecycle   'node ./bin/www "/Users/konei1/Documents/Projects/htmlimgfuckyeah/"' ]
+12 silly lifecycle htmlimgfuckyeah@0.0.0~start: Returned: code: 1  signal: null
+13 info lifecycle htmlimgfuckyeah@0.0.0~start: Failed to exec start script
+14 verbose stack Error: htmlimgfuckyeah@0.0.0 start: `node ./bin/www "/Users/konei1/Documents/Projects/htmlimgfuckyeah/"`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:233:16)
+14 verbose stack     at EventEmitter.emit (events.js:110:17)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at ChildProcess.emit (events.js:110:17)
+14 verbose stack     at maybeClose (child_process.js:1015:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+15 verbose pkgid htmlimgfuckyeah@0.0.0
+16 verbose cwd /Users/konei1/Documents/Projects/htmlimgfuckyeah
+17 error Darwin 14.5.0
+18 error argv "node" "/usr/local/bin/npm" "start" "/Users/konei1/Documents/Projects/htmlimgfuckyeah/"
+19 error node v0.12.6
+20 error npm  v3.3.5
+21 error code ELIFECYCLE
+22 error htmlimgfuckyeah@0.0.0 start: `node ./bin/www "/Users/konei1/Documents/Projects/htmlimgfuckyeah/"`
+22 error Exit status 1
+23 error Failed at the htmlimgfuckyeah@0.0.0 start script 'node ./bin/www "/Users/konei1/Documents/Projects/htmlimgfuckyeah/"'.
+23 error This is most likely a problem with the htmlimgfuckyeah package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node ./bin/www "/Users/konei1/Documents/Projects/htmlimgfuckyeah/"
+23 error You can get their info via:
+23 error     npm owner ls htmlimgfuckyeah
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
