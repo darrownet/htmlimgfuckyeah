@@ -17,6 +17,7 @@ router.post('/alright', upload.single("file"), function(req, res, next) {
       origList = req.file.originalname.split('.');
 
   if(req.file.mimetype.match(mime) === null){
+      fs.unlink(req.file.path);
       sendObj.fileName = 'pitythefool.html';
       sendObj.originalName = 'pitythefool';
       return res.send(sendObj);
