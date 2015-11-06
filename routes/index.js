@@ -80,7 +80,7 @@ router.get('/yeah/:path', function(req, res) {
     var query = url_parts.query;
     res.download('./public/downloads/' + req.params.path, query.originalName + '-rasterfyed.html', function(err) {
         console.log(err);
-        if (req.params.path !== 'pitythefool.html' || req.params.path !== 'giffool.html') {
+        if (req.params.path !== 'pitythefool.html' && req.params.path !== 'giffool.html') {
             fs.unlink('./public/downloads/' + req.params.path);
         }
     });
