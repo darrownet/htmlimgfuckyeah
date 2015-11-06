@@ -156,11 +156,10 @@ form.dropzone {
   border: 0;
   background: rgba(255, 255, 255, 0.2); }
   form.dropzone .dz-message {
-    margin-top: 120px; }
-    form.dropzone .dz-message span {
-      font-family: 'roboto-regular';
-      font-size: 1.5em;
-      color: #ffffff; }
+    margin-top: 120px;
+    font-family: 'roboto-regular';
+    font-size: 1.5em;
+    color: #ffffff; }
 
 @media only screen and (max-width: 770px) {
   .logo {

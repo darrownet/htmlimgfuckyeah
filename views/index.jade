@@ -20,5 +20,6 @@ block content
         p Drag your image into this here box and we’ll magically make it an HTML file!
 
       form(action="/alright", id="imgdrop" class="dropzone" method="post", enctype="multipart/form-data")
+        .dz-message(data-dz-message) Drom files here to upload (no .gif files yo)
       .form-caption
         p Just be careful the resulting file is kind of... <strong>big.</strong>
