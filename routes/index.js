@@ -29,7 +29,7 @@ router.post('/alright', upload.single("file"), function(req, res, next) {
           arrayFuckYeah.push('<p style="background:rgba('+red+','+green+','+blue+','+alpha+');"></p>');
       });
 
-      wrapStart = '<html><head><style>p{margin:0;padding:0;width:1px;height:1px;float:left;}</style></head><body><div style="width:'+image.bitmap.width+'px; height:'+image.bitmap.height+'px;">';
+      wrapStart = '<html><head><style>body{margin:0;}p{margin:0;padding:0;width:1px;height:1px;float:left;}</style></head><body><div style="width:'+image.bitmap.width+'px; height:'+image.bitmap.height+'px;">';
       imgMarkup = arrayFuckYeah.join("").toString();
       wrapEnd = '</div></body></html>';
       htmlImg = wrapStart+imgMarkup+wrapEnd;
