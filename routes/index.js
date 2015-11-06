@@ -45,6 +45,7 @@ router.post('/alright', upload.single("file"), function(req, res, next) {
 router.get('/yeah/:path', function(req, res){
     res.download('./public/downloads/' + req.params.path, 'imageYEAH.html', function(err){
         console.log(err);
+        fs.unlink('./public/downloads/' + req.params.path);
     });
 });
 
