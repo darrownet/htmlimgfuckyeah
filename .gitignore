@@ -3,6 +3,9 @@ htmlimgfuckyeah.sublime-project
 htmlimgfuckyeah.sublime-workspace
 config.codekit
 
+.sass-cache
+.sass-cache/*
+
 node_modules/*
 public/uploads/*
 public/downloads/*

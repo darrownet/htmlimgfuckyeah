@@ -1,0 +1,37 @@
+#content{
+  max-width: 1200px;
+  padding: 100px;
+  margin: 0 auto;
+}
+
+.copy{
+  font-family: 'roboto-regular';
+  font-size: 2em;
+  line-height: 1.875em;
+  color: #ffffff;
+}
+
+.instructions{
+  width: 100%;
+  text-align: center;
+  font-family: 'roboto-regular';
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #ffffff;
+  margin-top: 100px;
+  padding: 0 50px 10px 50px;
+}
+
+form.dropzone{
+  min-height: 300px;
+  border: 1px solid #ffffff;
+  background: transparent;
+  .dz-message{
+    margin-top: 100px;
+    span{
+      font-family: 'roboto-regular';
+      font-size: 1.5em;
+      color: #ffffff;
+    }
+  }
+}

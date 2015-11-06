@@ -3,9 +3,17 @@ extends layout
 block content
 
   section
-    h1 HTML IMAGE FUCK YEAH!
-    p If you're here, you've given up.
-    p You're an instrument.
-    p You have no energy left to reason.
-    p Give them what they want - an image saved as HTML markup.
-    form(action="/alright", id="imgdrop" class="dropzone" method="post", enctype="multipart/form-data")
+    #header
+      .logo RASTERFY
+        .social
+          .twitter
+            a(href="http://twitter.com/rasterfy", target="_blank")
+          .github
+            a(href="http://github.com/rasterfy", target="_blank")
+    #content
+      .copy
+        p Take your glorious image and covert it into an HTML file.
+        p Yes, thats right, we know - you’ve been waiting for this for a long time.
+      .instructions
+        p Drag your image into this here box and we’ll magically make it an HTML file for you. Just be careful the resulting file is kind of... big.
+      form(action="/alright", id="imgdrop" class="dropzone" method="post", enctype="multipart/form-data")
